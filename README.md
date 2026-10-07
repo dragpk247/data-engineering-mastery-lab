@@ -36,6 +36,8 @@ A complete, production-grade learning curriculum covering the **essential job-re
 | **[`08_trino_federated_lakehouse/`](./08_trino_federated_lakehouse/)** | **Trino (Presto)** | **Scenario 2:** Distributed query federation across S3 Lakehouse & Operational DBs without ETL. | `uv run python 08_trino_federated_lakehouse/trino_federation_lab.py` |
 | **[`09_enterprise_warehouse_patterns/`](./09_enterprise_warehouse_patterns/)** | **Snowflake / BigQuery** | **Scenario 3:** Enterprise cloud warehouse: Zero-Copy Cloning, micro-partition pruning & time-travel. | `uv run python 09_enterprise_warehouse_patterns/warehouse_patterns_lab.py` |
 | **[`10_infrastructure_migrations/`](./10_infrastructure_migrations/)** | **Platform Architecture** | **Migration Strategy:** Real-world migration timelines, the 80% hidden iceberg, dual-run shadow cutovers. | View [`migration_timelines_and_strategy.md`](./10_infrastructure_migrations/migration_timelines_and_strategy.md) |
+| **[`11_b2b_data_sharing/`](./11_b2b_data_sharing/)** | **Delta Sharing / Reverse ETL** | **B2B Fast Sharing:** Zero-copy cross-platform sharing (Delta Sharing, Snowflake Direct Share, pre-signed URLs). | `uv run python 11_b2b_data_sharing/b2b_sharing_demo.py` |
+
 
 
 
