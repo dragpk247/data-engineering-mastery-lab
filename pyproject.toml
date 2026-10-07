@@ -1,0 +1,18 @@
+[project]
+name = "data-engineering-mastery-lab"
+version = "0.1.0"
+description = "Comprehensive, hands-on learning lab covering the modern job-ready Data Engineering ecosystem."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "duckdb>=1.0.0",
+    "polars>=1.0.0",
+    "pyarrow>=17.0.0",
+    "dbt-core>=1.8.0",
+    "dbt-duckdb>=1.8.0",
+    "dagster>=1.8.0",
+    "kafka-python-ng>=2.2.0",
+    "pyspark>=4.0.0",
+    "delta-spark>=3.0.0",
+    "pandas>=2.2.0",
+]

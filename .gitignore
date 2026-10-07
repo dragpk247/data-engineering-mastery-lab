@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+dist/
+build/
+*.egg-info/
+*.duckdb
+*.duckdb.wal
+dbt_packages/
+target/
+logs/
+.dagster/
+checkpoint/
+/tmp/

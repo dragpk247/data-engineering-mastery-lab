@@ -1,0 +1,23 @@
+version: 2
+
+models:
+  - name: stg_orders
+    description: "Cleaned completed orders"
+    columns:
+      - name: order_id
+        description: "Primary key for orders"
+        tests:
+          - unique
+          - not_null
+
+  - name: fct_customer_revenue
+    description: "Aggregated customer metrics"
+    columns:
+      - name: customer_id
+        description: "Primary key for customers"
+        tests:
+          - unique
+          - not_null
+      - name: lifetime_revenue
+        tests:
+          - not_null
