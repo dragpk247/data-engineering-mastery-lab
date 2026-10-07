@@ -37,6 +37,8 @@ A complete, production-grade learning curriculum covering the **essential job-re
 | **[`09_enterprise_warehouse_patterns/`](./09_enterprise_warehouse_patterns/)** | **Snowflake / BigQuery** | **Scenario 3:** Enterprise cloud warehouse: Zero-Copy Cloning, micro-partition pruning & time-travel. | `uv run python 09_enterprise_warehouse_patterns/warehouse_patterns_lab.py` |
 | **[`10_infrastructure_migrations/`](./10_infrastructure_migrations/)** | **Platform Architecture** | **Migration Strategy:** Real-world migration timelines, the 80% hidden iceberg, dual-run shadow cutovers. | View [`migration_timelines_and_strategy.md`](./10_infrastructure_migrations/migration_timelines_and_strategy.md) |
 | **[`11_b2b_data_sharing/`](./11_b2b_data_sharing/)** | **Delta Sharing / Reverse ETL** | **B2B Fast Sharing:** Zero-copy cross-platform sharing (Delta Sharing, Snowflake Direct Share, pre-signed URLs). | `uv run python 11_b2b_data_sharing/b2b_sharing_demo.py` |
+| **[`12_ai_augmented_data_engineering/`](./12_ai_augmented_data_engineering/)** | **AI Query Routing & Schema Mapping** | **AI Decision Trees:** Smart cost/latency query routing, autonomous B2B schema matching & migration transpilation. | `uv run python 12_ai_augmented_data_engineering/ai_schema_mapper_demo.py` |
+
 
 
 
